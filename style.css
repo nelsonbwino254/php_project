@@ -1,0 +1,178 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.offset-by-150{
+	margin-top: 100px;
+}
+.center{
+    margin : 0 auto;
+}
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+.body {
+    height: 100%;
+}
+
+.navbar{
+    height:80px;
+    box-shadow: 0px -10px 34px 6px rgba(189, 189, 189, 1);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#container {
+    height: 100%;
+}
+
+#sidebar {
+    padding : 30px 10px 0px 5px;
+    display: inline-block;
+    /*vertical-align: top;*/
+    height: 100%;
+    width: 18%;
+    overflow: auto;
+}
+
+#content {
+    background-color: #f8f8f8;
+    display:inline-block;
+    height: 100%;
+    padding-left: 30px;
+    width: 82%;
+    overflow: auto;
+}
+.name {
+    text-align : center;
+}
+
+
+        /* new style */
+    /*div { margin: 20px; }*/
+
+    .styled-select {
+    /*height: 29px;*/
+    overflow: hidden;
+    width: 240px;
+    }
+
+    .styled-select select {
+    background: transparent;
+    border: none;
+    font-size: 12px;
+    /*height: 29px;*/
+    padding: 5px; /* If you add too much padding here, the options won't show in IE */
+    width: 268px;
+    }
+
+    .styled-select.slate {
+    background: url(../dist/css/arrow.png) no-repeat right center;
+    width: 100px;
+    }
+
+    .styled-select.slate select {
+    font-size: 14px;
+    height: 34px;
+    width: 114px;
+
+    }
+    input:focus,
+    select:focus,
+    textarea:focus,
+    button:focus {
+    outline: none;
+    }
+    /*styling the drops position*/
+    .slate {
+        margin-left:15px;
+    }
+    .header {
+            font-size : 14px;
+            color :#afafaf;
+     }
+     .sidebar_items{
+            margin-left : 20px  ;
+     }
+     /*styling the bottom sidebar item for logout*/
+     .logout{
+        font-family:"keep calm";
+        margin-left:-8px;
+        padding-top:20px ;
+        padding-bottom: 10px;
+     }
+
+     .bar_name{
+        font-size:16px;
+        color:#999;
+     }
+     .logout_sidebar{
+        background-color : #fede22;
+        padding-left:-7px;
+     }
+     .log_sub{
+        font-size:12px;
+     }
+     .log_main{
+        color :#bababa;
+     }
+     #space{
+        margin-top : 20px;
+     }
+     /*style for the list of items*/
+
+     .items{
+        font-size:14px;
+        color:#6b6b6b;
+     }
+     /*styling the icons : sidebar*/
+     .icon{
+        margin-top:-5px;
+        padding-right : 15px;
+     }
+     /*styling the sidebar items and buttons*/
+     .item{
+        cursor :pointer;
+     }
+     .item:hover{
+        color:#6970ff;
+     }
+     /*or the add icon*/
+     .plus{
+        height : 10px;
+     }
+     option:hover{
+        color:#6970ff;
+     }
+
+     #theDisplay{
+        font-family:"keep Calm";
+        color:#686970;
+     }
+
+    .clicked{
+        color : #6970ff ;
+    }
+
+    #error{
+        color : #ff0000;
+    }
+    #this_form {
+        font-size : 14px;
+    }
+    #days{
+        color: #696969;
+    }
